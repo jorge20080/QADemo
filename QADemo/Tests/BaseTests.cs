@@ -7,8 +7,9 @@ namespace QADemo
 	public class BaseTests
 	{
         string url = "https://demo.oneboss.ca/repweb/client/login.xhtml";
-        public string email = "jorge20080@hotmail.com";
-        public string password = "1234";
+        public string invalidEmail = "a@a.com";
+        public string validEmail = "jorge20080@hotmail.com";
+        public string validPassword = "1234";
         public IWebDriver Driver { get; set; }
 
         [SetUp]

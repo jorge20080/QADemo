@@ -10,9 +10,11 @@ namespace QADemo.Pages
 		By EmailInput { get; } = By.Id("inputEmail");
 		By PasswordInput { get; } = By.Id("inputPassword");
 		By LoginBtn { get; } = By.XPath("//input[@value='Log In']");
+		By InvalidLoginError { get; } = By.XPath("//span[text()=' Invalid. Please retry.']");
 
 		BrowserActions browserActions;
 		IWebDriver driver;
+
 		public LoginPage(IWebDriver driver)
 		{
 			this.driver = driver;
@@ -26,6 +28,20 @@ namespace QADemo.Pages
 			browserActions.Click(LoginBtn);
 			return new IndexPage(driver);
 		}
-	}
+
+		public bool IsLoginErrorDisplayed()
+		{
+            try
+            {
+                browserActions.WaitForElementToBeVisible(InvalidLoginError);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+    }
 }
 
