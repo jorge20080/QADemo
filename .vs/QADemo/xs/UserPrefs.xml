@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{B2C4D5BC-0E75-41CB-8285-2996A3CEA706}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="QADemo/UnitTest1.cs">
+    <Files>
+      <File FileName="QADemo/Usings.cs" Line="1" Column="1" />
+      <File FileName="QADemo/UnitTest1.cs" Line="23" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="QADemo" expanded="True">
+            <Node name="QADemo">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.QADemo PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jorgedelossantosreyes/Documents/QADemo/QADemo/QADemo.csproj": {}
+  },
+  "projects": {
+    "/Users/jorgedelossantosreyes/Documents/QADemo/QADemo/QADemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jorgedelossantosreyes/Documents/QADemo/QADemo/QADemo.csproj",
+        "projectName": "QADemo",
+        "projectPath": "/Users/jorgedelossantosreyes/Documents/QADemo/QADemo/QADemo.csproj",
+        "packagesPath": "/Users/jorgedelossantosreyes/.nuget/packages/",
+        "outputPath": "/Users/jorgedelossantosreyes/Documents/QADemo/QADemo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jorgedelossantosreyes/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.21.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.21.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[126.0.6478.6100, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.313/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
